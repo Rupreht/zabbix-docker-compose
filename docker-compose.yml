@@ -12,7 +12,6 @@ services:
   - export:/var/lib/zabbix/export:rw
   - modules:/var/lib/zabbix/modules:ro
   - enc:/var/lib/zabbix/enc:ro
-  - ssh_keys:/var/lib/zabbix/ssh_keys:ro
   - mibs:/var/lib/zabbix/mibs:ro
   - snmptraps:/var/lib/zabbix/snmptraps:rw
   links:
