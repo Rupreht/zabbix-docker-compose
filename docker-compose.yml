@@ -195,10 +195,7 @@ volumes:
  mysqldb:
  nginx:
  snmptraps:
- ssh_keys:
  web-modules:
- ssh-conf:
- robotkz:
 
 secrets:
  MYSQL_USER:
